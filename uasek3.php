@@ -1,4 +1,4 @@
-##### https://thetvapp.to/
+##### SOURCE : https://github.com/dtankdempse/thetvapp-m3u
 #####
 
 #EXTM3U url-tvg="https://tinyurl.com/tta-epg"
