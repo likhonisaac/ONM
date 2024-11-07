@@ -1,4 +1,6 @@
-<?php
-include 'test1.php'
-  include 'test2.php';
+<?php 
+session_start(); 
+
+header("Location: test1.php"); 
+exit(); 
 ?>
