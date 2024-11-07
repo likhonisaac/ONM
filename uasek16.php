@@ -1,3 +1,6 @@
+<?php
+?>
+
 ##### SOURCE : https://github.com/palabatu/iptv
 ##### MALAYSIA CHANNEL
 
