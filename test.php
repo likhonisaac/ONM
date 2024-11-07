@@ -1,3 +1,4 @@
 <?php
-include 'uasek16.php';
+include 'test1.php'
+  include 'test2.php';
 ?>
