@@ -1,2 +1,2 @@
-header("Location: .$google.com");
+header("Location: .$https://google.com");
 die();
