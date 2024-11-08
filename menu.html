@@ -2,7 +2,7 @@
 <html>
 
   
-{% include test1.html %}
+<iframe src="test1.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
 
   
 </html>
