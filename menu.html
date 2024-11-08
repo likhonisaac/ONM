@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-  
-<iframe src="test1.html" onload="this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()"></iframe>
+$data = file_get_contens('test1.html');
+echo ($data);
 
-  
-</html>
+?>
