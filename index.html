@@ -8,6 +8,25 @@
 <iframe width="900" height="900" src="https://www.youtube.com/embed/UZw7y0-txpI?si=YcpmXd1SF5MSQASj?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+
+
+<script>
+$(document).ready(function() {
+    document.onkeydown = function(e){
+        if (e.ctrlKey &&
+            (e.keyCode === 67 ||
+                e.keyCode === 86 ||
+                e.keyCode === 85 ||
+                e.keyCode === 117)) {
+            return false;
+        } else {
+            return true;
+        }
+    };
+});
+</script>
+
+
 <script>
   document.addEventListener('contextmenu', (event) => {
     event.preventDefault();
@@ -26,11 +45,18 @@
  }
  </script>
 
+
 <body onLoad="disableClick()">
 </body>
 <body oncontextmenu="return false;">
 
 
+
+
+
+
+
+  
 
 <div style="display:none"> 
 
